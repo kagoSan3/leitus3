@@ -35,6 +35,30 @@
  label{
     left: 2vw;
  }
+
+ h1{
+    font-size: 6vh;
+ }
+ #_l{
+    font-size: 2vh;
+ }
+ 
+ p{
+    font-size:2vh;
+ }
+ label{
+
+    font-size: 2vh;
+ }
+
+ input[type=text]{
+    font-size: 2vh;
+    height: 4vh;
+ }
+ input[type=date] {
+    height: 5vh;
+    font-size: 4vh;
+}
 }
 
 @media all and (min-width: 1001px) {
@@ -49,7 +73,30 @@
         left: 1.2vw;
      }
     
+  h1{
+    font-size: 8vh;
+ }
+
+
+ #_l{
+    font-size: 3vh;
+ }
+
+ p{
+    font-size:3vh;
+ }
+
+ label{
+
+    font-size: 3vh;
+ }
+
+ input{
+    font-size: 3vh;
+    height: 6vh;
   
+ }
+
 
    }
 
@@ -98,34 +145,23 @@ object{
 }
 
 
-h2 {
-    margin: 1vh;
-    font-size:3vh;
-    font-weight:100;
-}
 
 h1{
        
     font-family: ArTitle ;
         width: 100%;
 
-        font-size: 6vh;
+       
         font-weight:500;
        
        
 }
 
 
-h6{
-    font-size:2vh;
-    color: rgb(32, 30, 30);
-   
 
-  border-radius: 0;
-}
 
 #_l{
-   color: rgb(34, 34, 34);
+    color: rgb(34, 34, 34);
     width: 70vw;
   margin-right: 4.5vw;
  background-color: rgb(255, 255, 255);
@@ -135,12 +171,11 @@ padding: 3vh;
 p{
     
     margin: 1vh;
-    font-size:2vh;
     font-weight:100;
 }
 
 p::first-line{
-    font-size: 3vh;
+    font-size: 150%;
     
 }
 
@@ -166,9 +201,9 @@ padding: 3vh;
 }
 
 input[type=text]{
-    height: 4vh;
+  
 
-    font-size: 2vh;
+   
     color: rgb(63, 63, 63);
     width: 70vw;
 
@@ -179,12 +214,12 @@ border: none;
   
 
 input[type=date] {
-    height: 4vh;
+
     color: rgb(63, 63, 63);
     width: 70vw;
-    
+   
  background-color: rgb(255, 255, 255);
-border: none;
+
 }
 
 input:focus{
@@ -233,7 +268,7 @@ label{
     background-color: rgb(255, 255, 255);
     border: none;  
     color: rgb(34, 34, 34);
-    font-size: 2vh;
+    
  
    
 
