@@ -12,7 +12,7 @@
 body{
     		
     background-color: rgb(63, 45, 106);
-    background-image: url(Img/Sends/pgsend.png);
+    background-image: url(Bgsend);
     background-size: cover;
     overflow: hidden;
 }
