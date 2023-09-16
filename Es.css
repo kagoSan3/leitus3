@@ -125,7 +125,7 @@ h6{
 }
 
 #_l{
-    color: rgb(63, 63, 63);
+   color: rgb(34, 34, 34);
     width: 70vw;
   margin-right: 4.5vw;
  background-color: rgb(255, 255, 255);
@@ -232,7 +232,7 @@ label{
    
     background-color: rgb(255, 255, 255);
     border: none;  
-    color: rgb(63, 63, 63);
+    color: rgb(34, 34, 34);
     font-size: 2vh;
  
    
