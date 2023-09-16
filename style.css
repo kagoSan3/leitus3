@@ -1,0 +1,235 @@
+
+
+/*  الاكواد في فوضى لست ملزومة بتشوه عينيك */
+
+
+@font-face{ /* استيراد الخطوط*/
+    
+    font-family: MyText;
+    src: url(Fonts/QwitcherGrypen-Bold.ttf);
+}
+
+@font-face{ /* استيراد الخطوط*/
+    
+    font-family: MyNormalText;
+    src: url(Fonts/NormalText.ttf);
+}
+
+@font-face{ /* استيراد الخطوط*/
+    
+  font-family: MyNotmlEnh;
+  src: url(Fonts/UtendoExtraLight.ttf);
+}
+
+@media all and (max-width: 1000px) {
+  .BgIMG{
+    height: 30vh;
+  }
+
+  P{
+    font-size:  3vh;; 
+    padding-top: 10vh;
+  }
+
+  .Icon h3{
+    font-size: 2.5vh;
+    position:relative;
+    right: 2vh;
+    bottom: 2.8vh;
+  
+  }
+
+  #H3{
+    position: relative;
+    right: 2.8vh;
+  }
+
+  .button {
+    font-size: 3vh;
+  }
+
+
+
+ }
+ 
+ @media all and (min-width: 1001px) {
+
+ .BgIMG{
+  height: 60vh;
+  }
+
+  P{
+    font-size:  6vh;; 
+    padding-top: 7vh;
+  }
+
+  .Icon h3{
+    font-size: 4vh;
+    position:relative;
+    right: 3vh;
+    bottom: 2.5vh;
+  
+  }
+  .button {
+    font-size: 4vh;
+  }
+
+#H3{
+  position: relative;
+  right: 4.5vh;
+}
+
+ }
+
+body{
+
+  background-color: rgb(34, 29, 75);
+background-image: url(Img/PgOneTwo/BgBody.png);
+ 
+position:static;
+background-size: cover;
+height: 100.06vh;
+ 
+ background-repeat: no-repeat;
+
+}
+
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.BgIMG object{
+  height: 100%;
+  width: 100%;
+
+
+  object-fit: cover;
+  object-position: bottom;
+
+  border-radius: 0px;
+}
+
+
+
+ h1{ /* العنوان */
+ 
+  position:absolute; 
+  top: 3vh;  
+  text-align: left;
+  text-shadow: 0.2vw 0.2vh 0 rgba(0, 0, 0, 0.5);
+ line-height: 6vh;
+ font-family:  MyNotmlEnh;
+  color: rgb(255, 255, 255);   
+  
+
+
+  left: 4vw;
+
+  font-size: 3.2vh;
+   
+}
+h1::first-line{
+  font-size: 12vh;
+  font-family:MyText;
+}
+
+
+
+p{
+  
+  
+    margin-right:  2vw;
+    margin-left:  2vw;
+    
+    padding-bottom: 2vh;
+   
+    direction: rtl;
+      
+    font-family:  MyNormalText;
+   
+    color: rgb(202, 200, 224);   
+   
+    text-align:center;
+}
+
+
+
+#DivForm{
+  
+    
+    margin: auto;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+
+
+ }
+
+ 
+.button {
+ 
+    height: 100%;
+  
+   width : 100%;
+   
+    display: block;
+    padding: 5px 25px;
+    font-family:  MyNormalText;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #a396b1;
+    border: none;
+    border-radius: 400px;
+    box-shadow: 0 9px #563f9756;
+  }
+  
+  .button:hover {  color: #db95db; background-color: #543a92}
+  
+  .button:active {
+   
+    background-color: #4d2158;
+    box-shadow: 0 5px #401a4756;
+    transform: translateY(4px);
+  }
+
+
+ 
+
+
+
+  .Icon h3 {
+
+    color: white;
+    width: 100%;
+  
+    margin-left: 1vw;
+     
+   
+   
+  }
+
+  #AppBox{
+
+    width: 100%;
+    height: 3vh;
+
+    display: flex; 
+    justify-content: space-around;
+
+    font-family:MyNotmlEnh;
+    
+   
+    position: fixed;
+     bottom: 0;
+      bottom: 5vh;
+     
+    }

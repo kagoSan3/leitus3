@@ -1,0 +1,134 @@
+
+/*  الاكواد في فوضى لست ملزومة بتشوه عينيك */
+
+
+
+@font-face{ /* استيراد الخطوط*/
+    
+    font-family: MyNormalText;
+    src: url(Fonts/NormalText.ttf);
+}
+
+body{
+    		
+    background-color: rgb(63, 45, 106);
+    background-image: url(Img/Sends/pgsend.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+@media all and (max-width: 1000px) {
+
+ 
+    object{
+        position: relative;
+        top: 35px;
+        
+        left: 3.7vw;
+        height: 100%;
+          width: 110vw;
+      }
+
+      h2{
+        position: relative;
+        top: 6vh;
+        font-size: 6vh;
+        line-height: 9vh;
+      }
+    
+h3{
+     position: relative;
+      top: 4vh;
+        font-size: 3vh;
+        line-height: 9vh;
+}
+
+}
+
+@media all and (min-width: 1001px) {
+
+    object{
+        position: relative;
+        top: 1.5vh;
+        height: 100%;
+          width: 50vw;
+      }
+
+      h2{
+        position: relative;
+       bottom: 20vh;
+       right: 3vw;
+       font-size: 7vw;
+        line-height: 0vh;
+      }
+    
+      h3{
+        position: relative;
+           bottom: 10vh;
+           right: 3vw;
+           font-size: 7vh;
+           line-height: 9vh;
+   }
+
+}
+
+
+*{
+    direction: rtl;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  MyNormalText ;
+   
+}
+
+div {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  
+  
+flex-direction: row-reverse;
+flex-wrap: wrap-reverse;
+    align-items: center;
+justify-content: space-around;
+
+
+overflow: hidden;
+
+}
+
+object{
+
+    object-fit: cover;
+    object-position: bottom;
+
+    border-radius: 0px;
+}
+
+
+h3{
+    
+    width: 100%;
+    color: antiquewhite;
+  
+    font-weight:500;
+
+}
+
+h2{
+
+    
+    width: 100%;
+    color: antiquewhite;
+  
+    font-weight:500;
+}
+ 
+a{
+    color: rgb(139, 146, 209);
+}
+

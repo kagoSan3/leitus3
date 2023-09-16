@@ -1,0 +1,103 @@
+
+
+/*  الاكواد في فوضى لست ملزومة بتشوه عينيك */
+
+
+@font-face{ /* استيراد الخطوط*/
+    
+    font-family: MyNormalText;
+    src: url(Fonts/NormalText.ttf);
+}
+
+
+* {
+    direction: rtl;
+    text-align: center;
+
+    box-sizing: border-box;
+    font-family: MyNormalText;
+    color: antiquewhite;
+
+    font-weight: 400;
+}
+
+
+
+@media all and (max-width: 1000px) {
+
+   
+    h1{
+        font-size: 4.5vh;  
+    }
+
+    h2{
+        font-size: 3vh;
+    }
+    p{
+        font-size: 2vh;
+        margin: 0px;
+    }
+    
+    div{
+        margin-top: 40vh;
+    }
+    
+    object{
+      
+        height: 100%;
+         width: 40%;
+        
+        }
+
+    }
+    
+
+
+@media all and (min-width: 1001px) {
+
+   
+h1{
+    font-size: 10vh;  
+}
+    
+h2{
+    font-size: 6vh;
+}
+p{
+    font-size: 3vh;
+}
+
+div{
+    margin-top: 20vh;
+}
+object{
+    height: 100%;
+     width: 10%;
+    
+    }
+
+
+}
+
+
+
+
+
+h1{
+ 
+    margin-top: 7vh;
+   
+}
+
+h2{
+ 
+    margin-bottom: 7vh;
+}
+a{
+    color: chocolate;
+}
+
+
+
+
+

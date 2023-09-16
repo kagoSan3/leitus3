@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+   
+
+    <title>استمارة الانضمام</title>
+
+    <link rel="stylesheet" href="Es.css">
+  </head>
+
+<body>
+ 
+
+
+
+  <div class="Top">
+    
+    <object data="Img/Phone/Pg2EsGif.gif" type="image/gif">
+      <object data="Img/Phone/phone.png" type="image/png">  
+        <object data="Img/Phone/phone2.webp" type="image/webp">
+        
+      <p> عذرا, متصفحك البائس لا يدعم الصورة. 
+        <br> انميشين لشخص يرتدي بدلة بنفجسية مع هاتف محمول ينقر به, تخيل بنفسك 
+      </p>  
+        </object>   
+      </object>  
+    </object>
+  </div>
+
+
+
+  
+   <h1 id="head"> استمارة الانضمام </h1>
+    
+
+
+
+  
+<form onsubmit="return SendData()">
+  
+ 
+    <section> <!--الاسم 1-->
+ <p>
+      ما الاسم الذي تريد أن نطلقه عليك؟<br>
+        ليس من الضروري أن يكون اسمك الحقيقي. <br>
+      أعط اسمك الثاني أو لقبك أو شيء من هذا القبيل.
+ </p>
+        <input id="name2" name="entry.2091778996" type="text" placeholder="اسمك" required >
+    </section>
+   
+    <section> <!-- 2كم تبلغ من العمر؟  -->
+        <p> كم تبلغ من العمر؟ <br>
+            عمرك الحقيقي رجاءً.
+        </p>
+               <input id="Age" style="font-size: 2vh;" type="date" name="entry.137269778" required >
+    </section>
+          
+    <section> <!--3جنسك؟  -->
+        <p>  جنسك؟   </p>
+              
+        <input type="radio" id="Male" value="ذكر" name="entry.295590525" required>
+         <label for="Male"> ذكر </label>
+
+       <br>
+
+       <input type="radio" id="Fmale" value="أنثى"  name="entry.295590525" required>
+         <label for="Fmale"> أنثى </label>
+
+   </section>
+          
+   <section> <!-- 4نتواصل معك عن طريق: -->
+    <p>   نتواصل معك عن طريق:
+    <br>  سنرسل لك رسالة عن طريق البرنامج الذي ستختاره هنا!    
+    </p>
+          
+    <input type="radio" id="Insta" value="انستغرام" name="entry.236102575" required>
+     <label for="Insta"> الانستغرام </label>
+     
+   <br>
+
+   <input type="radio" id="Wat" value="واتباد"  name="entry.236102575" required>
+     <label for="Wat"> الواتباد </label>
+
+   <br>
+
+  <input type="radio" id="Gmail" value="جيميل"  name="entry.236102575" required > 
+      <label for="Gmail"> البريد الإلكتروني </label>
+
+</section>
+      
+<section> <!-- يوزر حسابك5  -->
+    <p>
+      اسم المستخدم
+      <br>   اسم المستخدم > يوزر> معرف حسابك.            
+    </p>
+           <input id="User" type="text" name="entry.1423159187" placeholder="@User" required>
+ </section>
+      
+ <section> <!--6 رابط حسابك  -->
+    <p>
+      رابط حسابك 
+      <br>  الرجاء نسخ رابط حسابك. <br>بعضكم يضع اسم مستخدم من المريخ.        
+    </p>
+           <input id="url" type="text" name="entry.1494306142" placeholder="wattpad.com/user/MyUser" required>
+ </section>
+
+ <section> <!--  7اذا كان حسابك خاصًا-->
+    <p> إذا كان حسابك خاصًا
+    <br> كيف تريد أن نتواصل معك؟
+    <br>يرجى إلغاء الميزة أو الانتباه إذا تابعك حساب غريب.
+    </p>
+          
+    <input required type="radio" id="Ch" value="أعي هذا." name="entry.1281168481"  required>
+     <label for="Ch"> أعي هذا. </label>
+     
+</section>
+
+<section> <!--8 ساعدوني بسوي 16 خيار -->
+    <p>  ما هو نمطك؟
+    <br>  هذا يساعدنا على فهم شخصيتك!
+    <br>إذا كنت لا تعرف ما هو نمطك، يمكنك إجراء اختبار الأنماط 
+    <a target="_blank" href="https://www.16personalities.com/ar/%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9">هنا!</a>
+   </p>
+     
+   <div>
+  <!-- 1-->
+    <input type="radio" id="INTJ" value="INTJ" name="entry.384824775" required> 
+    <label for="INTJ">  INTJ </label>
+ 
+    <input type="radio" id="ENTJ" value="ENTJ" name="entry.384824775" required>
+    <label for="ENTJ">  ENTJ </label>
+
+    <br><!-- 2-->
+    <input type="radio" id="INTP" value="INTP" name="entry.384824775" required> 
+    <label for="INTP">  INTP </label>
+ 
+    <input type="radio" id="ENTP" value="ENTP" name="entry.384824775" required>
+    <label for="ENTP">  ENTP </label>
+
+    <br><!-- 3-->
+    <input type="radio" id="INFJ" value="INFJ" name="entry.384824775" required> 
+    <label for="INFJ">  INFJ </label>
+ 
+    <input type="radio" id="ENFJ" value="ENFJ" name="entry.384824775" required>
+    <label for="ENFJ">  ENFJ </label>
+
+    <br><!-- 4-->
+    <input type="radio" id="INFP" value="INFP" name="entry.384824775" required> 
+    <label for="INFP">  INFP </label>
+ 
+    <input type="radio" id="ENFP" value="ENFP" name="entry.384824775" required>
+    <label for="ENFP">  ENFP </label>
+
+    <br><!-- 5-->
+    <input type="radio" id="ISTJ" value="ISTJ" name="entry.384824775" required> 
+    <label for="ISTJ">  ISTJ </label>
+
+    <input type="radio" id="ESTJ" value="ESTJ" name="entry.384824775" required>
+    <label for="ESTJ">  ESTJ </label>
+ 
+    <br><!-- 6-->
+    <input type="radio" id="ISFJ" value="ISFJ" name="entry.384824775" required> 
+    <label for="ISFJ">  ISFJ </label>
+
+    <input type="radio" id="ESFJ" value="ESFJ" name="entry.384824775" required>
+    <label for="ESFJ">  ESFJ </label>
+ 
+    <br><!-- 7-->
+    <input type="radio" id="ISTP" value="ISTP" name="entry.384824775" required> 
+    <label for="ISTP">  ISTP </label>
+
+    <input type="radio" id="ESTP" value="ESTP" name="entry.384824775" required>
+    <label for="ESTP">  ESTP </label>
+ 
+    <br><!-- 8-->
+    <input type="radio" id="ISFP" value="ISFP" name="entry.384824775" required> 
+    <label for="ISFP">  ISFP </label>
+ 
+    <input type="radio" id="ESFP" value="ESFP" name="entry.384824775" required> 
+    <label for="ESFP">  ESFP </label>
+    
+
+    
+   </div>
+  
+     
+</section>
+
+<section class="long"> <!-- 9 تجيدها   -->
+    <p>حدد ما تجيده 
+        
+    <br>  اختر ما تعتبر مستواك فيه متوسطًا ولك رغبة بتطويره لما هو أفضل.
+    <br>  لا يشترط - ولا ينحصر - ما تتقنه على المذكور بين الأقواس، ما هي إلا أمثلة.
+    <br>  تذكر أن مستواك يجب أن يكون متوسطًا في كل نقطة تحددها.
+  </p>
+          
+     <input type="checkbox" id="a" name="entry.1369727920" value="الكتابة">
+     <label for="a"> الكتابة (سواء روائي أو غيره)</label>
+    <br>
+
+    <input type="checkbox" id="b" name="entry.1369727920" value="مصمم" >
+    <label for="b"> مصمم (أغلفة, واجهات, تنسيق الحسابات, أي شيء له علاقة بالتصميم) </label>
+   <br>
+
+   
+   <input type="checkbox" id="c" name="entry.1369727920"  value="مبرمج">
+   <label for="c"> مبرمج (يشمل هذا الخيار مطور البرمجيات أيضا) </label>
+  <br>
+
+  <input type="checkbox" id="d" name="entry.1369727920" value="مترجم">
+  <label for="d"> مترجم (تحويل لغة أجنبية للغتنا العربية) </label>
+ <br>
+
+ <input type="checkbox" id="e" name="entry.1369727920" value="ناقد" >
+ <label for="e"> ناقد (يشمل هذا النقد سواء: كتابة, رسم, تصميم...) </label>
+<br>
+
+<input type="checkbox" id="f" name="entry.1369727920" value="رسام">
+<label for="f"> رسام (يشمل هذا الخيار الرسم بكل أنواعه, ورقي, إٍلكتروني, ثنائي/ثلاثي الأبعاد) </label>
+<br>
+
+<input type="checkbox" id="g" name="entry.1369727920" value="انميتر">
+<label for="g"> انميتر (إنشاء الانيمشين) </label>
+<br>
+
+<input type="checkbox" id="h" name="entry.1369727920" value="مونتاج">
+<label for="h"> مونتاج (منتجة مقاطع الفيديو) </label>
+<br>
+
+<input type="checkbox" id="i" name="entry.1369727920" value="مدقق لغوي" >
+<label for="i"> مدقق لغوي (اللغة العربية أو الإٍنجليزية) </label>
+<br>
+
+<input type="checkbox" id="j" name="entry.1369727920" value="معلق صوتي">
+<label for="j"> معلق صوتي </label>
+<br>
+
+<input type="checkbox" id="k" name="entry.1369727920" value="مونتاج صوتي">
+<label for="k">   مونتاج صوتي ( منتجة الأصوات)</label>
+<br>
+
+<input type="checkbox" id="l" name="entry.1369727920" value="لا شيء محدد">
+<label for="l"> لا شيء محدد, مازلت أحاول تطوير نفسي. </label>
+<br>
+
+
+</section>
+
+<section class="long"> <!-- 10لا تجيدها   -->
+    <p>      اختر المهارات التي تريد إتقانها
+    <br>  حتى لو كانت معرفتك بها شبه منعدمة، كن مستعدًا فقط!
+  </p>
+          
+     <input type="checkbox" id="a2" name="entry.804722101" value="الكتابة">
+     <label for="a2"> الكتابة (سواء روائي أو غيره)</label>
+    <br>
+
+    <input type="checkbox" id="b2" name="entry.804722101" value="مصمم">
+    <label for="b2"> مصمم (أغلفة, واجهات, تنسيق الحسابات, أي شيء له علاقة بالتصميم) </label>
+   <br>
+
+   
+   <input type="checkbox" id="c2" name="entry.804722101" value="مبرمج">
+   <label for="c2"> مبرمج (يشمل هذا الخيار مطور البرمجيات أيضا) </label>
+  <br>
+
+  <input type="checkbox" id="d2" name="entry.804722101" value="مترجم">
+  <label for="d2"> مترجم (تحويل لغة أجنبية للغتنا العربية) </label>
+ <br>
+
+ <input type="checkbox" id="e2" name="entry.804722101" value="ناقد">
+ <label for="e2"> ناقد (يشمل هذا النقد سواء: كتابة, رسم, تصميم...) </label>
+<br>
+
+<input type="checkbox" id="f2" name="entry.804722101" value="رسام">
+<label for="f2">رسام (يشمل هذا الخيار الرسم بكل أنواعه, ورقي, إلكتروني, ثنائي/ثلاثي الأبعاد) </label>
+<br>
+
+<input type="checkbox" id="g2" name="entry.804722101" value="انميتر">
+<label for="g2"> انميتر إنشاء الإٍنيمشين) </label>
+<br>
+
+<input type="checkbox" id="h2" name="entry.804722101" value="مونتاج">
+<label for="h2">  مونتاج (منتجة مقاطع الفيديو) </label>
+<br>
+
+<input type="checkbox" id="i2" name="entry.804722101" value="مدقق لغوي">
+<label for="i2">  مدقق لغوي (اللغة العربية أو الإٍنجليزية) </label>
+<br>
+
+<input type="checkbox" id="j2" name="entry.804722101" value="معلق صوتي">
+<label for="j2"> معلق صوتي </label>
+<br>
+
+<input type="checkbox" id="k2" name="entry.804722101" value="مونتاج صوتي">
+<label for="k2">  مونتاج صوتي ( منتجة الاصوات)</label>
+<br>
+
+<input type="checkbox" id="l2" name="entry.804722101" value="التركيز على مواهبي">
+<label for="l2"> أرغب بالتركيز على مواهبي السابقة وتطويرها اأكثر. </label>
+<br>
+
+
+</section>
+
+<section> <!--11 انضممت لفريق  -->
+  <p>  هل انضممت لفريق من قبل؟   </p>
+        
+  <input type="radio" id="yes" value="نعم" name="entry.343467060" required >
+   <label for="yes"> نعم </label>
+
+ <br>
+
+ <input type="radio" id="no" value="لا"  name="entry.343467060" required >
+   <label for="no"> لا </label>
+
+</section>
+
+<section id="Show" > <!--  12هل مازلت به؟  -->
+  <p>  هل مازلت به؟  </p>
+        
+  <input type="radio" id="yes3" value="نعم" name="entry.1533897753" >
+   <label for="yes3"> نعم </label>
+
+ <br>
+
+ <input type="radio" id="no3" value="لا"  name="entry.1533897753"  >
+   <label for="no3"> لا </label>
+
+</section>
+
+
+<section id="Steel"> <!-- 13لماذا ستنضم لنا   -->
+  <p>  لماذا ستنضم لنا وأنت في فريق اخر؟  </p>
+ 
+
+ <textarea  id="Why1" name="entry.1008338557"  cols="30" rows="10" placeholder="اكتب السبب...."></textarea>
+
+</section>
+
+<section id="notSteele"> <!-- 14 لماذا خرجت منه؟   -->
+  <p>  لماذا خرجت منه؟ 
+<br> لا يشترط الإجابة، لكن هذا سيساعدنا على تجنب خسارتك.
+  </p>
+
+  <textarea id="Why2" name="entry.723362597"  cols="30" rows="10" placeholder="اكتب السبب...."></textarea>
+ 
+</section>
+
+
+<section > <!--  15حدثنا عن نفسك     -->
+  <p>  حدثنا عن نفسك
+<br> من أنت, مخاوفك, كيف ترى نفسك بعد عشر سنوات؟
+  </p>
+  
+  <textarea  id="toke" name="entry.668635125"  cols="30" rows="10" placeholder="اكتب ...." ></textarea>
+ 
+ 
+</section>
+
+<section> <!--  قوانين  -->
+ 
+ <p> نقاط مهمة! </p>
+  <div id="ForH6">
+ 
+   <h6>  
+
+    <label id="_l"> - ستحتاج إلى تحميل برامج إضافية، سواء كان ذلك للتواصل معنا أو مساعدتك في العمل.
+      <br> <br>
+       - الفريق متصل بالكامل بالإنترنت، ولا يلزمك مشاركة أي معلومات شخصية
+       <br> <br>
+       - يحظر التغيب أو الاختفاء دون سابق إنذار.
+       <br> <br>
+       - يجب احترام الجميع. يحظر استخدام أي لغة بذيئة أو إظهار أي روح من العداء لأي من زملائك.
+       <br> <br>
+       - يحظر إدخال نفسك في خصوصية أي زميل دون موافقته على ذلك.
+       <br> <br>
+       - نحن نضع جودة العمل فوق الوقت ، والأخلاق فوق الجودة.
+       <br> <br>
+       - لا يقبل أي شخص يؤيد الشذوذ أو أي شيء مخالف للطبيعة البشرية.
+       <br> <br>
+       - سواء كنت جيدًا في ذلك أو ما زلت مبتدئًا، في كلتا الحالتين سنساعدك على تطوير نفسك وبناء مهاراتك.
+   </label>
+  </div>
+    
+  </h6>
+
+  <input  type="radio" id="Iexpt" value="أوافق على كل ما سبق." name="entry.861987046"  >
+   <label  for="Iexpt"> أوافق على كل ما سبق.</label>
+
+ 
+
+</section>
+
+
+<section > <!--  ملاحظات    -->
+  <p>  ملاحظات  </p>
+
+  <textarea id="note" name="entry.1091188565"  cols="30" rows="10" placeholder="اكتب ...."></textarea>
+ 
+</section>
+
+
+<input id="Go" class="button" type="submit" value=" أرسل!">
+
+</form>
+<script  src="Script.js"></script>
+
+</body>
+</html>
